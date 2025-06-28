@@ -1,0 +1,322 @@
+¿Cual es la formula de la pendiente entre dos puntos?
+(x2+x1)/(y2+y1)
+(y2-y1)/(x2-x1)
+(y2+y1)/(x2-x1)
+(x2-x1)/(y2-y1)
+B
+facil
+¿Cual es la distancia entre dos puntos (x1, y1) y (x2, y2)?
+√((x2-x1)^2 + (y2-y1)^2)
+(x2-x1) + (y2-y1)
+(x2+y2)-(x1+y1)
+|x2-x1| + |y2-y1|
+A
+facil
+¿La ecuacion general de la recta es?
+y = mx + b
+Ax + By + C = 0
+x = y
+a^2 + b^2 = c^2
+B
+facil
+¿Cual es la formula de la pendiente-perpendicular?
+-m
+1/m
+-1/m
+m
+C
+facil
+¿Que representa 'm' en la recta y = mx + b?
+La ordenada al origen
+La pendiente
+El corte en X
+La distancia
+B
+facil
+¿Cual es la pendiente de una recta horizontal?
+1
+m
+0
+Infinito
+C
+facil
+¿Una recta vertical tiene pendiente...?
+0
+Infinita
+1
+-1
+B
+facil
+¿El punto medio entre dos puntos se calcula como...?
+(x2+x1)/2 , (y2+y1)/2
+x1*x2 , y1*y2
+x1-x2 , y1-y2
+(x1+y1)/2
+A
+facil
+¿Cual es la formula de la recta punto-pendiente?
+y = mx + b
+y - y1 = m(x - x1)
+Ax + By + C = 0
+y = x^2
+B
+facil
+¿Que forma tiene la grafica de una ecuacion de primer grado?
+Recta
+Parabola
+Circunferencia
+Hiperbola
+A
+facil
+¿Una parabola tiene grado...?
+1
+2
+3
+0
+B
+facil
+¿La formula del discriminante es?
+b^2 - 4ac
+a^2 + b^2
+x^2 + y^2
+2ab
+A
+medio
+¿Cual es la formula del radio de una circunferencia con centro en el origen?
+√(x^2 + y^2)
+x^2 + y^2
+x + y
+x*y
+A
+medio
+¿Una elipse tiene como ecuacion general...?
+x^2 + y^2 = r^2
+(x^2/a^2) + (y^2/b^2) = 1
+x^2 - y^2 = 1
+x*y = c
+B
+medio
+¿Que representa el centro de una circunferencia?
+El punto mas alto
+El origen
+El punto equidistante a todos los puntos del borde
+El radio
+C
+medio
+¿En una parabola, el foco se ubica...?
+Fuera de la parabola
+Dentro y en el eje de simetria
+En la directriz
+En el vertice
+B
+medio
+¿La directriz es...?
+Una constante
+Una recta auxiliar
+El eje principal
+Una parabola inversa
+B
+medio
+¿Cual es la distancia del vertice al foco en una parabola?
+a
+p
+c
+b
+B
+medio
+¿En una hiperbola, los focos estan...?
+En el mismo lado
+En lados opuestos
+En el centro
+En la directriz
+B
+medio
+¿Cual es la ecuacion de una circunferencia con centro (h, k)?
+(x-h)^2 + (y-k)^2 = r^2
+x^2 + y^2 = r^2
+(x+h)^2 + (y+k)^2 = r
+x^2 - y^2 = r
+A
+medio
+¿Que se necesita para identificar la orientacion de una elipse?
+El valor de a y b
+El centro
+El radio
+El foco
+A
+medio
+¿Que es el eje mayor de una elipse?
+El que pasa por los focos
+El perpendicular
+El que mide menos
+El radio
+A
+medio
+¿La formula general de la hiperbola es...?
+(x^2/a^2) - (y^2/b^2) = 1
+x^2 + y^2 = r^2
+(x^2 + y^2)/2 = 1
+y = mx + b
+A
+medio
+¿Cual es el valor de c en una elipse?
+c = √(a^2 + b^2)
+c = √(a^2 - b^2)
+c = a + b
+c = ab
+B
+medio
+¿Que son las asintotas en una hiperbola?
+Tangentes
+Rectas que intersectan
+Rectas que se acercan sin tocar
+Focos
+C
+medio
+¿La distancia entre focos en una hiperbola es...?
+2a
+2b
+2c
+a+b
+C
+medio
+¿Que tipo de curva es x^2 + y^2 = r^2?
+Parabola
+Recta
+Circunferencia
+Hiperbola
+C
+medio
+¿En una parabola, que determina la apertura?
+El signo de a
+El valor de b
+El centro
+El foco
+A
+medio
+¿El foco siempre se encuentra...?
+A la izquierda
+Fuera del plano
+Dentro de la figura
+En el eje de simetria
+D
+medio
+¿Cual es la forma canonica de la parabola con vertice en el origen?
+y = ax^2
+y = a(x-h)^2 + k
+x = ay^2
+x = a(y-k)^2 + h
+A
+medio
+¿Que representa 'c' en la hiperbola?
+La distancia al vertice
+La distancia al foco
+El centro
+El eje mayor
+B
+medio
+¿Que ocurre si a = b en una elipse?
+Es una parabola
+Es una circunferencia
+Es una recta
+No se forma figura
+B
+dificil
+¿Cual es la excentricidad de una elipse?
+e = c/a
+e = a/c
+e = b/a
+e = a/b
+A
+dificil
+¿Que define el signo en la ecuacion de la hiperbola?
+El valor de a
+La distancia entre focos
+La orientacion (horizontal o vertical)
+El centro
+C
+dificil
+¿Que ocurre si el discriminante es 0 en una conica?
+No hay solucion
+Tiene una solucion real
+Tiene dos soluciones reales
+Es una circunferencia
+B
+dificil
+¿Que representa el parametro 'p' en la parabola?
+Distancia del vertice al foco
+Pendiente
+Altura
+Radio
+A
+dificil
+¿Una parabola vertical tiene ecuacion de la forma...?
+x = ay^2
+y = ax^2
+y = ax + b
+x = ay + b
+B
+dificil
+¿En la parabola, la directriz es siempre...?
+Horizontal
+Vertical
+Perpendicular al eje de simetria
+Igual al foco
+C
+dificil
+¿El centro de la hiperbola se obtiene a partir de...?
+La distancia entre focos
+Los vertices
+El punto medio entre vertices
+El eje menor
+C
+dificil
+¿La forma general de una conica incluye...?
+Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0
+y = mx + b
+x^2 + y^2 = r^2
+x*y = 1
+A
+dificil
+¿Cual es la condicion para que una conica sea parabola?
+B^2 - 4AC = 0
+B^2 - 4AC > 0
+B^2 - 4AC < 0
+A = B
+A
+dificil
+¿Cuando se forma una elipse en la conica general?
+B^2 - 4AC < 0
+B^2 - 4AC > 0
+A = C
+B = 0
+A
+dificil
+¿El eje menor de la elipse es perpendicular al...?
+Eje mayor
+Centro
+Directriz
+Pendiente
+A
+dificil
+¿La parabola tiene cuantos focos?
+1
+2
+0
+Infinitos
+A
+dificil
+¿La excentricidad de la circunferencia es...?
+1
+0
+Infinito
+2
+B
+dificil
+¿Una conica degenerada puede ser...?
+Un punto, una recta, o dos rectas
+Una elipse
+Una circunferencia
+Un plano
+A
+dificil

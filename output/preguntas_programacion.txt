@@ -1,0 +1,336 @@
+¿Que simbolo se usa para acceder a un puntero en C++?
+&
+*
+%
+#
+B
+facil
+¿Como se declara una variable entera en C++?
+int numero;
+integer numero;
+ent numero;
+num numero;
+A
+facil
+¿Que bucle se utiliza para repetir mientras una condicion sea verdadera?
+for
+if
+while
+switch
+C
+facil
+¿Que operador se usa para comparar igualdad?
+==
+=
+!=
+<=
+A
+facil
+¿Cual es la extension de un archivo de C++?
+.c
+.cpp
+.ccp
+.cxx
+B
+facil
+¿Que instruccion se usa para imprimir en consola?
+print
+System.out.println
+cout
+Console.Write
+C
+facil
+¿Que palabra clave se usa para definir una constante?
+constant
+fixed
+const
+define
+C
+facil
+¿Que estructura condicional se usa para varias opciones?
+if
+switch
+loop
+case
+B
+facil
+¿Cual de estas es una estructura de repeticion?
+while
+if
+return
+break
+A
+facil
+¿Que se necesita para ejecutar un programa en C++?
+Intérprete
+Compilador
+Script
+Emulador
+B
+facil
+¿Qué tipo de dato se usa para caracteres?
+char
+int
+float
+string
+A
+facil
+¿Como termina una instrucción en C++?
+.
+,
+:
+;
+D
+facil
+¿Como se llama la funcion principal?
+main
+start
+first
+principal
+A
+facil
+¿Cual es la funcion de "return 0;"?
+Inicia el programa
+Finaliza el programa correctamente
+Repite el programa
+Imprime cero
+B
+facil
+¿Cual de estos es un comentario en C++?
+\\ Este
+// Este
+-- Este
+## Este
+B
+facil
+¿Qué biblioteca se necesita para usar cout?
+#include<iostream>
+#include<conio.h>
+#include<math.h>
+#include<stdio.h>
+A
+facil
+¿Como se declara un arreglo de 5 enteros?
+int a[5];
+array int[5];
+int(5)a;
+arreglo[5];
+A
+medio
+¿Que es un constructor en una clase?
+Una variable global
+Una funcion sin retorno con el mismo nombre de la clase
+Una funcion con retorno
+Una constante
+B
+medio
+¿Como se crea un objeto de una clase?
+new Clase();
+Clase objeto;
+object Clase;
+crear Clase;
+B
+medio
+¿Cual de estos es un metodo de entrada?
+cout
+cin
+printf
+scanf
+B
+medio
+¿Que hace el operador ++?
+Resta 1
+Suma 2
+Suma 1
+Multiplica
+C
+medio
+¿Que significa OOP?
+Operadores de Programacion
+Object Oriented Programming
+Orden Original de Programa
+Operaciones de Orientacion
+B
+medio
+¿Cual de estos NO es un tipo de dato primitivo?
+int
+float
+class
+char
+C
+medio
+¿Para que se usa la palabra "this"?
+Para acceder a variables globales
+Para referirse al objeto actual
+Para crear objetos
+Para destruir objetos
+B
+medio
+¿Como se declara una funcion que no retorna nada?
+void funcion()
+int funcion()
+null funcion()
+none funcion()
+A
+medio
+¿Que palabra se usa para heredar una clase?
+inherits
+derives
+extends
+public
+D
+medio
+¿Que simbolo se usa para acceder a miembros de un objeto con puntero?
+.
+::
+->
+#
+C
+medio
+¿Que hace "delete ptr;"?
+Libera memoria de ptr
+Crea memoria
+Declara un puntero
+Hace un cast
+A
+medio
+¿Que pasa si olvidas "break" en un switch?
+Se repite
+Se ejecutan todos los casos siguientes
+Se detiene el programa
+No pasa nada
+B
+medio
+¿Para que sirve "new" en C++?
+Eliminar memoria
+Crear variables globales
+Asignar memoria dinamica
+Importar librerias
+C
+medio
+¿Que es un puntero?
+Una variable que guarda otra variable
+Una referencia
+Una direccion de memoria
+Una clase
+C
+medio
+¿Que permite la sobrecarga de funciones?
+Tener muchas funciones
+Tener varias funciones con el mismo nombre pero distintos parametros
+Hacer funciones internas
+Herencia
+B
+medio
+¿Que es una clase abstracta?
+Una clase sin metodos
+Una clase con metodos vacios
+Una clase que no se puede instanciar
+Una clase de base
+C
+dificil
+¿Cual es la diferencia entre struct y class en C++?
+class es privada por defecto y struct publica
+No hay diferencia
+struct es una funcion
+struct tiene metodos
+A
+dificil
+¿Que es una plantilla (template)?
+Una funcion sin cuerpo
+Una clase base
+Un tipo generico de funcion o clase
+Un puntero de clase
+C
+dificil
+¿Que permite el polimorfismo?
+Crear objetos
+Asignar punteros
+Invocar funciones segun el tipo del objeto
+Sobreescribir variables
+C
+dificil
+¿Que hace el operador "::"?
+Accede a miembros privados
+Accede a miembros estaticos o de clase
+Duplica clases
+Destruye objetos
+B
+dificil
+¿Que significa encapsulamiento?
+Acceder a todo sin limites
+Separar variables
+Proteger los datos de una clase
+Incluir librerias
+C
+dificil
+¿Que son referencias en C++?
+Punteros constantes
+Variables independientes
+Alias de otras variables
+Funciones
+C
+dificil
+¿Como se implementa una interfaz en C++?
+No se puede
+Con structs
+Usando clases abstractas puras
+Usando templates
+C
+dificil
+¿Que operador permite capturar excepciones?
+try
+catch
+throw
+Se usan todos juntos
+D
+dificil
+¿Que palabra clave se usa para excepciones?
+try
+catch
+error
+if
+A
+dificil
+¿Que es una funcion virtual?
+Una funcion estatica
+Una funcion que se puede sobreescribir
+Una funcion privada
+Una funcion global
+B
+dificil
+¿Que pasa si se olvida liberar memoria?
+Se borra el programa
+Error de compilacion
+Fuga de memoria
+Nada
+C
+dificil
+¿Que palabra se usa para invocar al constructor padre?
+base
+super
+padre
+no se necesita
+B
+dificil
+¿Como se sobreescribe una funcion heredada?
+Con override
+Con overload
+No se puede
+Con template
+A
+dificil
+¿Para que se usa "friend"?
+Para acceder a funciones de otras clases
+Para heredar
+Para evitar encapsulamiento
+Para compartir punteros
+A
+dificil
+¿Que hace el operador ternario ?: ?
+Evalua una condicion en una sola linea
+Suma
+Multiplica
+Crea punteros
+A
+dificil

@@ -1,0 +1,329 @@
+¿Cual es la unidad del trabajo en el SI?
+Watt
+Newton
+Joule
+Pascal
+C
+facil
+¿La fuerza se mide en...?
+Watts
+Amperes
+Newtons
+Joules
+C
+facil
+¿Cual es la aceleracion de la gravedad en la Tierra?
+5 m/s^2
+8.5 m/s^2
+9.8 m/s^2
+10 m/s^2
+C
+facil
+¿Cual es la primera ley de Newton?
+Toda accion tiene una reaccion
+La fuerza es masa por aceleracion
+Un cuerpo en reposo permanece en reposo
+La energia se conserva
+C
+facil
+¿La velocidad es una magnitud...?
+Escalar
+Vectorial
+Compleja
+Absoluta
+B
+facil
+¿Que es el MRU?
+Movimiento circular
+Movimiento rectilineo uniforme
+Movimiento rectilineo unitario
+Movimiento relativo
+B
+facil
+¿Cual es la formula de la velocidad en MRU?
+v = a*t
+v = d*t
+v = d/t
+v = t/d
+C
+facil
+¿La energia cinetica depende de...?
+Altura
+Masa y velocidad
+Temperatura
+Carga electrica
+B
+facil
+¿Cual es la formula del trabajo?
+W = F*d
+W = m*a
+W = d/t
+W = m*v
+A
+facil
+¿Que es una fuerza neta?
+La suma de todas las masas
+La fuerza sin direccion
+La suma vectorial de todas las fuerzas
+La resta entre velocidad y aceleracion
+C
+facil
+¿Cual es la unidad de presion en el SI?
+Bar
+Joule
+Pascal
+Newton
+C
+facil
+¿El impulso es igual a...?
+Cambio de masa
+Fuerza por tiempo
+Distancia por tiempo
+Aceleracion por masa
+B
+facil
+¿Que es la inercia?
+Resistencia al movimiento
+Cambio de direccion
+Fuerza aplicada
+Velocidad constante
+A
+facil
+¿Que es energia potencial?
+Energia almacenada
+Energia termica
+Energia en movimiento
+Energia electrica
+A
+facil
+¿Que dice la tercera ley de Newton?
+Fuerza neta cero
+Inercia constante
+Toda accion tiene una reaccion
+Velocidad constante
+C
+facil
+¿La velocidad instantanea se mide en...?
+km
+m
+m/s
+m/s^2
+C
+medio
+¿En caida libre, la velocidad depende de...?
+La masa
+La altura
+El tiempo
+La energia
+C
+medio
+¿La aceleracion en MRUV es...?
+Nula
+Variable
+Constante
+Inexistente
+C
+medio
+¿Que tipo de energia tiene un cuerpo en movimiento?
+Potencial
+Cinetica
+Mecanica
+Electrica
+B
+medio
+¿El trabajo es una cantidad...?
+Vectorial
+Escalar
+Negativa
+Imaginaria
+B
+medio
+¿Que representa el area bajo una curva F-t?
+Impulso
+Trabajo
+Energia
+Inercia
+A
+medio
+¿La potencia es igual a...?
+Trabajo por tiempo
+Trabajo dividido tiempo
+Energia por velocidad
+Fuerza por tiempo
+B
+medio
+¿Cual es la unidad de energia en el SI?
+Watt
+Joule
+Newton
+Pascal
+B
+medio
+¿En que casos se usa MRUV?
+Velocidad constante
+Aceleracion constante
+Fuerza constante
+Masa constante
+B
+medio
+¿El centro de masa es...?
+El punto mas pesado
+Donde se concentra toda la masa
+Centro de energia
+Centro de presion
+B
+medio
+¿Una fuerza de friccion siempre...?
+Aumenta la velocidad
+Ayuda el movimiento
+Se opone al movimiento
+No tiene direccion
+C
+medio
+¿Que representa la pendiente de una grafica v-t?
+Distancia
+Aceleracion
+Trabajo
+Velocidad
+B
+medio
+¿Cuando un objeto esta en equilibrio?
+Aceleracion maxima
+Velocidad minima
+Fuerza neta cero
+Masa infinita
+C
+medio
+¿Que es un sistema de referencia?
+Sistema de medicion
+Observador desde donde se mide el movimiento
+Un objeto estatico
+Una aceleracion constante
+B
+medio
+¿En un choque elastico se conserva...?
+Masa
+Velocidad
+Energia cinetica
+Altura
+C
+medio
+¿Que es el momento lineal?
+Fuerza aplicada
+Cantidad de movimiento
+Energia potencial
+Trabajo realizado
+B
+medio
+¿Que es el rozamiento?
+Un tipo de energia
+Fuerza que se opone al movimiento
+Movimiento circular
+Velocidad
+B
+medio
+¿El empuje en fluidos se debe a...?
+Gravedad
+Presion
+Densidad
+Diferencia de presiones
+D
+medio
+¿Que es el torque?
+Energia mecanica
+Momento de fuerza
+Fuerza rotacional
+Cambio de velocidad
+B
+dificil
+¿La ley de Hooke describe...?
+Movimiento circular
+Elasticidad
+Friccion
+Gravedad
+B
+dificil
+¿Que dice la ley de conservacion de la energia?
+La energia se destruye
+La energia se crea
+La energia se transforma pero no se crea ni destruye
+La energia aumenta con la masa
+C
+dificil
+¿Que sucede en un choque inelastico?
+Se conserva la energia cinetica
+No hay deformacion
+Se pierde energia en forma de calor
+La masa se conserva
+C
+dificil
+¿Que formula define el momento angular?
+L = m*v
+L = r*p
+L = I*w
+L = F*d
+C
+dificil
+¿Que representa la constante G en la ley de gravitacion?
+Gravedad en la Tierra
+Aceleracion
+Constante universal de gravitacion
+Fuerza normal
+C
+dificil
+¿La presion hidrostática depende de...?
+Temperatura
+Altura y densidad
+Velocidad
+Fuerza
+B
+dificil
+¿Cual es la diferencia entre masa y peso?
+Son iguales
+Masa es fuerza, peso es energia
+Masa es cantidad de materia, peso es fuerza
+Peso es masa sin gravedad
+C
+dificil
+¿Que es el equilibrio termico?
+Igualdad de presiones
+Igualdad de volumenes
+Igualdad de temperaturas
+Igualdad de densidades
+C
+dificil
+¿Que es el principio de Pascal?
+La presion no se transmite
+La presion se distribuye igual en un fluido
+La masa es constante
+El calor se transmite por fluidos
+B
+dificil
+¿La energia interna de un gas depende de...?
+Presion
+Masa
+Velocidad
+Temperatura
+D
+dificil
+¿En un sistema cerrado, la energia...?
+Se destruye
+Se conserva
+Se duplica
+Se transforma en masa
+B
+dificil
+¿El calor especifico es...?
+Cantidad de calor para subir un grado la temperatura de 1g
+Temperatura constante
+Energia interna
+Trabajo de expansion
+A
+dificil
+¿Que es una onda mecanica?
+Viaja en el vacio
+No necesita medio
+Necesita un medio para propagarse
+No se propaga
+C
+dificil
