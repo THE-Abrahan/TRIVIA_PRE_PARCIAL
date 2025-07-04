@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Depurar Trivia",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/output/trivia.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Habilitar formato pretty para gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "Compilar Trivia C++ con SDL", // ¡Asegúrate de que este nombre coincida con el label en tasks.json!
+      "miDebuggerPath": "gdb"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/retui/Downloads/Trivia_Cpp_VSCode_Pack_MenuCentrado",
+      "program": "c:/Users/retui/Downloads/Trivia_Cpp_VSCode_Pack_MenuCentrado/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

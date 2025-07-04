@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "MinGW-w64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/mingw64/include", // Ruta principal de las cabeceras de MinGW
+                "C:/mingw64/include/SDL2" // Ruta específica para las cabeceras de SDL2 y SDL_mixer
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.17763.0",
+            "compilerPath": "C:/mingw64/bin/g++.exe", // Ruta correcta a tu compilador g++ de 64 bits
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64" // Modo IntelliSense correcto para g++
+        }
+    ],
+    "version": 4
+}
