@@ -45,6 +45,36 @@ string logo[] = {
     "....:ZZZZZ~....ZZZ...ZZZ..$ZZ..ZZZ.....ZZZ....ZZZZZ:...ZZZ......7ZZZ...:ZZZZZZ..",
     "................................................................................"
 };
+void dibujarMarco() {
+    const int ancho = 100; // Ajusta según el tamaño de tu consola
+    const int alto = 28;   // Ajusta según la altura de tu consola
+    const int x0 = 0;
+    const int y0 = 0;
+
+    setColor(1); // Blanco brillante
+
+    // Bordes horizontales
+    for (int x = x0; x < ancho; ++x) {
+        gotoxy(x, y0); cout << (char)10000;               // Línea superior ─
+        gotoxy(x, y0 + alto); cout << (char)10000;        // Línea inferior ─
+    }
+
+    // Bordes verticales
+    for (int y = y0; y <= alto; ++y) {
+        gotoxy(x0, y); cout << (char)186;               // Línea izquierda │
+        gotoxy(x0 + ancho - 1, y); cout << (char)10000;   // Línea derecha  │
+    }
+
+    // Esquinas
+    gotoxy(x0, y0); cout << (char)201;                      // Esquina superior izquierda ┌
+    gotoxy(x0 + ancho - 1, y0); cout << (char)10000;          // Esquina superior derecha ┐
+    gotoxy(x0, y0 + alto); cout << (char)10000;               // Esquina inferior izquierda └
+    gotoxy(x0 + ancho - 1, y0 + alto); cout << (char)10000;   // Esquina inferior derecha ┘
+
+    setColor(7); // Restaurar color normal
+}
+
+
 // ====== ESTRUCTURAS Y CONSTANTES ======
 struct Pregunta {
     string texto;
@@ -66,9 +96,11 @@ void animarLogo() {
         gotoxy(x, y + i);
         cout << logo[i] << endl;
     }
+     dibujarMarco(); // Muestra marco antes del menú
     setColor(7); // Reset color default
     Sleep(1500); // Espera 1.5 segundos para que se vea el logo
     system("cls"); // Limpia pantalla para el menú
+   
 }
 // ====== FUNCIONES DEL JUEGO ======
 void mostrarPregunta(const Pregunta& pregunta) {
@@ -247,7 +279,15 @@ void jugarTriviaUnJugador() {
 
     int puntaje = 0;
     jugarTrivia(nombre, filtradas, puntaje);
-    cout << "\n=== Resultado ===\n" << nombre << ": " << puntaje << " puntos\n";
+   cout << "\n";
+setColor(13); // Magenta claro
+gotoxy(30, 20); cout << "=== RESULTADO FINAL ===";
+setColor(14); // Amarillo claro
+gotoxy(30, 22); cout << nombre << ": ";
+setColor(10); // Verde brillante
+cout << puntaje << " puntos\n";
+setColor(7); // Restaurar color
+
     mostrarMensajeFinal(puntaje);
     guardarPuntaje(nombre, puntaje);
 }
@@ -324,7 +364,7 @@ void jugarTriviaDosJugadores() {
             if (respuesta == filtradas[i].respuestaCorrecta) {
                 setColor(10);
                 cout << "\n\n¡Correcto!\n";
-                PlaySound(TEXT("correct.wav"), NULL, SND_FILENAME | SND_ASYNC); // Reproducir sonido correcto
+                PlaySound(TEXT("correcto.wav"), NULL, SND_FILENAME | SND_ASYNC); // Reproducir sonido correcto
                 ++puntajeActual;
             } else {
                 setColor(12);
@@ -339,11 +379,20 @@ void jugarTriviaDosJugadores() {
         cin.get();
     }
 
-    cout << "\n=== Resultados Finales ===\n";
-    cout << nombre1 << ": " << puntaje1 << " puntos\n";
-    mostrarMensajeFinal(puntaje1);
-    cout << nombre2 << ": " << puntaje2 << " puntos\n";
-    mostrarMensajeFinal(puntaje2);
+    setColor(13); // Magenta claro
+gotoxy(37, 20); cout << "=== RESULTADOS FINALES ===";
+
+setColor(14);
+gotoxy(30, 22); cout << nombre1 << ": ";
+setColor(10); cout << puntaje1 << " puntos";
+mostrarMensajeFinal(puntaje1);
+
+setColor(14);
+gotoxy(30, 24); cout << nombre2 << ": ";
+setColor(10); cout << puntaje2 << " puntos";
+mostrarMensajeFinal(puntaje2);
+
+setColor(7);
 
     guardarPuntaje(nombre1, puntaje1);
     guardarPuntaje(nombre2, puntaje2);
@@ -352,7 +401,7 @@ void jugarTriviaDosJugadores() {
 void mostrarBanner() {
     setColor(13);
     gotoxy(30, 2); cout << "=========================";
-    gotoxy(30, 3); cout << "      TRIVIA          ";
+    gotoxy(30, 3); cout << "           TRIVIA          ";
     gotoxy(30, 4); cout << "=========================";
     setColor(7);
 }
@@ -361,6 +410,7 @@ void mostrarMenu() {
     int opcion;
     do {
         system("cls");
+        dibujarMarco(); 
         mostrarBanner();
         int x = 30, y = 6;
         gotoxy(x, y++); setColor(11); cout << "=========== MENU PRINCIPAL ===========";
@@ -399,14 +449,49 @@ void mostrarMenu() {
                 system("pause");
                 break;
             case 4: {
-                system("cls");
-                ifstream archivo("puntajes.txt");
-                string linea;
-                cout << "\n=== Puntajes ===\n";
-                while (getline(archivo, linea)) cout << linea << endl;
-                system("pause");
-                break;
-            }
+    system("cls");
+    dibujarMarco();
+
+    ifstream archivo("puntajes.txt");
+    if (!archivo.is_open()) {
+        setColor(12);
+        gotoxy(35, 12); cout << "No se pudo abrir el archivo de puntajes.";
+        setColor(7);
+        system("pause");
+        break;
+    }
+
+    vector<string> lineas;
+    string linea;
+    while (getline(archivo, linea)) {
+        if (!linea.empty())
+            lineas.push_back(linea);
+    }
+    archivo.close();
+
+    setColor(13); // Magenta claro
+    gotoxy(35, 4); cout << "=== PUNTAJES ===";
+    setColor(7);
+
+    if (lineas.empty()) {
+        setColor(12); // Rojo
+        gotoxy(32, 10); cout << "No hay puntajes registrados aun.";
+        setColor(7);
+    } else {
+        int y = 7;
+        for (const string& texto : lineas) {
+            gotoxy(30, y++); // Centrado horizontal aproximado
+            setColor(14);    // Amarillo
+            cout << texto;
+        }
+    }
+
+    setColor(7);
+    gotoxy(30, 25); cout << "Presiona cualquier tecla para volver al menu...";
+    _getch();
+    break;
+}
+
             case 5:
                 borrarPuntajes();
                 system("pause");
